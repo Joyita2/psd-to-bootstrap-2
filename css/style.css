@@ -1,0 +1,393 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+*/ 
+h1,h2,h3,h4,h5,h6,p,a,input,span{
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul li{
+list-style: none;
+}
+/* header section css starts here*/
+header{
+	position: absolute;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+}
+.nav-link{
+	font-size: 25px;
+	color: white !important;
+}
+
+.nav-item{
+	margin: 0 32px;
+}
+
+.form-control {
+    padding: .8rem .75rem !important;
+    color: #ffffff !important;
+    background-color: #fcc302 !important;
+    border: 1px solid #fcc302 !important;
+    border-radius: 0px !important;
+}
+.input-group-text {
+    padding: .375rem .75rem;
+    color: #ffffff !important;
+    background-color: #00bec9 !important;
+    border: none !important;
+}
+/* header section css ends here*/
+/* Banner section css starts here*/
+.banner{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 120px 0;
+	
+}
+.banner h1{
+	font-size: 64px;
+	font-weight: 600;
+	color: white;
+	margin-top: 64px;
+}
+.banner p{
+	font-size: 30px;
+	color: white;
+	margin: 42px 0;
+
+}
+
+.banner .btn-primary{
+	background-color: #00bec9 !important;
+	border-color: #00bec9 !important;
+	color: white;
+}
+/* Banner section css ends here*/
+/*-- Service1 section css starts here --*/ 
+
+.Service1{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 120px 0;
+}
+.Service1 h1{
+	font-size: 50px;  
+	font-weight: 600;
+	color: #313243;
+	margin-top: 64px;
+}
+.Service1 p{
+	font-size: 30px;
+	color: #7a7a83;
+	margin: 42px 0;
+}
+
+.Service1 .btn-danger{
+	background-color: #fcc302 !important;
+	border-color: #fcc302 !important;
+}
+
+/*.service_vdo1{
+	position: relative;
+	z-index: 1;
+}
+.shadow_1{
+ 	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(252,195,2,0.6);
+	
+}
+.box1{
+	width: 220px;
+	height: 200px;
+	background-color: #fcc302;
+	position: absolute;
+	bottom: -30px;
+	left: -30px;
+	z-index: -1;
+}
+.vdo_icon{
+position: absolute;
+top: 50%;
+left: 50%;
+z-index: -1;
+}
+
+.vdo_icon i{
+	width: 80px;
+    background-color: red;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 100%;
+    color: #fcc302;
+}*/
+/*-- Service1 section css ends here --*/  
+
+ /*** Title section css starts here  ***/
+.title{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 80px 0;
+}
+.title h1{
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.title p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 10px;
+
+}
+.title_content{
+	margin-top: 50px;
+}
+.title_des{}
+.title_des h4{
+	font-weight: 600;
+	color: #ffffff;
+	margin-top: 64px;
+	text-align: center;
+}
+.title_des p{
+	color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    margin-top: 17px;
+}
+
+ /***  Title section css ends here ***/
+
+  /*** Title2 section css starts here  ***/
+.title2{
+	width: 100%;
+	background-color: #fcc302;
+	padding: 80px 0;
+}
+.title2 h1{
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.title2 p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 10px;
+
+}
+.title_content{
+	margin-top: 50px;
+}
+.title2 .title_des p{
+	font-weight: 600;
+	font-size: 32px;
+	color: #ffffff;
+	margin-top: 40px;
+	text-align: center;
+}
+.btn-primary {
+    background-color: #00bec9 !important;
+    border-color: #00bec9 !important;
+    padding: 3px 20px !important;
+    margin-left: 127px !important;
+    margin-top: 10px !important;
+
+}
+
+.btn-group-md>.btn, .btn-md {
+    border-radius: 5.3rem !important;
+}
+
+ /***  Title2 section css ends here ***/
+
+  /*** Team section css starts here  ***/
+
+.team{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+
+.team h1{
+	font-weight: 700;
+	color: #313243;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.team p{
+	color: #313243;
+	text-align: center;
+	font-size: 20px;
+	line-height: 10px;
+
+}
+.team h5{
+	font-weight: 700;
+	color: #313243;
+	text-align: center;
+	margin: 20px 0 10px 0;
+}
+
+.team h6{
+	font-weight: 700;
+	color: #313243;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.team ul{
+	 margin-left: 76px;
+}
+
+.team ul li a{
+    text-decoration: none;
+    color: white;
+    background: #daac00;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    padding: 5px 7px;
+    margin: 5px;
+}
+
+   /***  Team section css ends here ***/
+
+   /***  post section css starts here ***/
+
+.post{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 80px 0;
+}
+.space{
+	padding-bottom: 40px;
+}
+.post h1{
+	font-weight: 700;
+	color: #313243;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.post p{
+	color: #313243;
+	text-align: center;
+	font-size: 20px;
+	line-height: 10px;
+	margin-bottom: 10px;
+
+}
+.post_content h5{
+	font-weight: 700;
+    font-size: 31px;
+    color: #313243;
+    text-align: left;
+    margin: 20px 0 30px 0;
+}
+
+.h6, h6{
+    color: #00bec9!important;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 22px;
+    }
+
+ .post_des p{
+	color: #313243;
+    text-align: left;
+    font-size: 19px;
+    line-height: 23px;
+    margin-bottom: 30px;
+ }
+ .border_des{
+ 	border: 1px solid #d6d6d6;
+ 	border-top: none;
+ 	padding: 22px 10px 0 30px;
+ 	background-color: #ffffff;
+ }
+ .border_des2{
+ 	padding: 22px 10px 2px 30px;
+ 	background-color: #ffffff;
+ }
+   /***  post section css ends here ***/
+
+    /***  footer section css starts here ***/
+.footer{
+	width: 100%;
+	background-color: #343434;
+	padding: 80px 0;
+}
+.footer h4{
+	font-weight: 600; 
+    color: #ffffff;
+    text-align: left;
+    margin: 20px 0 30px 0;
+}
+.footer h3{
+	font-weight: 600; 
+    color: #ffffff;
+    text-align: right;
+    margin: 10px 0 0 0;
+}
+.footer p{
+	color: #ffffff;
+    text-align: right;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.footer ol, ul {
+    padding-left: 0rem !important;
+    }
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.footer .left{
+	padding-left: 200px;
+	
+}
+.footer .last_s_icon i{
+    text-decoration: none;
+    color: #343434;
+    background: #ffffff;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 7px;
+    margin: 7px;
+    margin-top: 20px;
+
+    /*padding: 5px 7px;
+    margin: 5px;*/
+}
+
+    /***  footer section css ends here ***/}
+
