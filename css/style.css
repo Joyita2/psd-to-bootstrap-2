@@ -96,11 +96,11 @@ header{
 	border-color: #fcc302 !important;
 }
 
-/*.service_vdo1{
+.service_vdo1{
 	position: relative;
 	z-index: 1;
 }
-.shadow_1{
+.service_vdo1 .shadow_1{
  	position: absolute;
 	top: 0;
 	right: 0;
@@ -109,8 +109,8 @@ header{
 	background-color: rgba(252,195,2,0.6);
 	
 }
-.box1{
-	width: 220px;
+.service_vdo1 .box1{
+	width: 200px;
 	height: 200px;
 	background-color: #fcc302;
 	position: absolute;
@@ -118,22 +118,23 @@ header{
 	left: -30px;
 	z-index: -1;
 }
-.vdo_icon{
-position: absolute;
-top: 50%;
-left: 50%;
-z-index: -1;
+.service_vdo1 .vdo_icon{
+
+
 }
 
-.vdo_icon i{
-	width: 80px;
-    background-color: red;
-    height: 80px;
-    line-height: 80px;
+.service_vdo1 .vdo_icon i{
+	width: 50px;
+    background-color: #ffff;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    border-radius: 100%;
+    top: 40%;
+	left: 40%;
+    border-radius: 50%;
     color: #fcc302;
-}*/
+    position: absolute;
+}
 /*-- Service1 section css ends here --*/  
 
  /*** Title section css starts here  ***/
@@ -177,6 +178,69 @@ z-index: -1;
 
  /***  Title section css ends here ***/
 
+  /***<!-- Service2 section starts here --> **/
+.Service2{
+	width: 100%;
+	padding: 80px 0;
+
+}
+.Service2 .btn-danger{
+	background-color: #fcc302 !important;
+	border-color: #fcc302 !important;
+}
+
+.Service2 h1{
+	font-size: 50px;  
+	font-weight: 600;
+	color: #313243;
+	margin-top: 64px;
+}
+.Service2 p{
+	font-size: 30px;
+	color: #7a7a83;
+	margin: 42px 0;
+}
+.service_vdo2{
+	position: relative;
+	z-index: 1;
+}
+
+.service_vdo2 .shadow_2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(252,195,2,.6);
+
+}
+
+.service_vdo2 .box2{
+	width: 200px;
+	height: 200px;
+	background-color: #fcc302;
+	position: absolute;
+	right: -30px;
+    bottom: -30px;
+	z-index: -1;
+}
+.service_vdo2 .vdo_icon2 i{
+	background-color: #ffff;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 44%;
+    left: 46%;
+	color: #daac00;
+
+}
+
+
+
+  /***<!-- Service2 section ends here --> **/
   /*** Title2 section css starts here  ***/
 .title2{
 	width: 100%;
@@ -251,9 +315,10 @@ z-index: -1;
 	margin: 20px 0 10px 0;
 }
 
-.team h6{
-	font-weight: 700;
-	color: #313243;
+.team p{
+	font-weight: 400;
+	font-size: 14px;
+	color: #313243 !important;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -275,6 +340,43 @@ z-index: -1;
 }
 
    /***  Team section css ends here ***/
+
+/*<!-- client section css starts here --> */
+.client{
+	background-image: url(../img/dog.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	position: relative;
+}
+
+.overley{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(252,195,2,.6);
+	padding: 160px;
+}
+.client .row .col-md-4{
+	text-align: center;
+}
+.client .row .col-md-4 h2{
+	color: white;
+	font-size: 40px;
+
+}
+.client .row .col-md-4 h3{
+	color: white;
+	font-size: 38px;
+
+}
+
+/*<!-- client section css ends here --> */
+
+
 
    /***  post section css starts here ***/
 
@@ -360,8 +462,8 @@ z-index: -1;
     padding-bottom: 5px;
 }
 .footer ol, ul {
-    padding-left: 0rem !important;
-    }
+    padding-left: 2rem !important;
+}
 
 .footer ul li a{
     text-decoration: none;
@@ -387,6 +489,10 @@ z-index: -1;
 
     /*padding: 5px 7px;
     margin: 5px;*/
+}
+
+.left ul {
+    padding-left: 0rem !important;
 }
 
     /***  footer section css ends here ***/}
